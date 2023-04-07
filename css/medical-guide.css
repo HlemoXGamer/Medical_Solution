@@ -4002,8 +4002,6 @@ input.input.error {
 .Diatech-Pharmacoqenetics-products {
   color: #7b7b7d;
 }
-.Diatech-Pharmacoqenetics-products .container {
-}
 .Diatech-Pharmacoqenetics-products .container section {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -4044,8 +4042,586 @@ input.input.error {
   background-color: #eee;
   margin: 20px 0;
 }
-.Diatech-Pharmacoqenetics-products .container .item h3 {
+
+.oxford-nanopore {
 }
-.Diatech-Pharmacoqenetics-products .container .item p {
+.oxford-nanopore .landing {
+  min-height: 80vh;
+  position: relative;
+  background-image: radial-gradient(
+    circle,
+    rgba(67, 67, 67, 1) 0%,
+    rgba(0, 0, 0, 1) 45%
+  );
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.oxford-nanopore .landing .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.oxford-nanopore .landing .container h2 {
+  margin-top: 50px;
+  margin-bottom: -40px;
+  color: #fff;
+  font-size: 95px;
+  font-weight: lighter;
+}
+.oxford-nanopore .landing .container img {
+  max-width: 350px;
+}
+.oxford-nanopore .landing .container p {
+  font-size: 1.7rem;
+  line-height: 1.25;
+  max-width: 37rem;
+  padding: 0 2rem 2rem;
+  text-align: center;
+  margin-top: 50px;
+}
+.oxford-nanopore .landing .container .oxford-nanopore-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.oxford-nanopore .landing .container .oxford-nanopore-btns button:first-child {
+  background-color: transparent;
+  padding: 0.4rem 16px;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.oxford-nanopore
+  .container
+  .landing
+  .oxford-nanopore-btns
+  button:first-child:hover {
+  background-color: #fff;
+  color: #02adc6;
+}
+.oxford-nanopore .landing .container .oxford-nanopore-btns button:last-child {
+  background-color: transparent;
+  padding: 0.4rem 16px;
+  border: 2px solid #02adc6;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #02adc6;
+  transition: 0.3s;
+  margin-left: 30px;
+}
+.oxford-nanopore
+  .container
+  .landing
+  .oxford-nanopore-btns
+  button:last-child:hover {
+  background-color: #02adc6;
+  color: #fff;
+}
+.oxford-nanopore-main-btn {
+  background-color: transparent;
+  padding: 0.4rem 16px;
+  border: 2px solid #02adc6;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #02adc6;
+  transition: 0.3s;
+}
+.oxford-nanopore-main-btn:hover {
+  background-color: #02adc6;
+  color: #fff;
+}
+.oxford-nanopore .overview {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.oxford-nanopore .container .overview {
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.oxford-nanopore .container .overview .box_1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #0084a9;
+  padding-bottom: 7px;
+}
+.oxford-nanopore .container .overview .box_1 h4 {
+  font-weight: lighter;
+}
+.oxford-nanopore .container .overview .box_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+@media (max-width: 992px) {
+  .oxford-nanopore .container .overview .box_2 {
+    flex-direction: column;
+  }
+}
+.oxford-nanopore .container .overview .box_2 .feature {
+  flex: 1;
+}
+.oxford-nanopore .container .overview .box_2 .feature h4 {
+  margin: 20px 0;
+  color: #455556;
+}
+
+.oxford-nanopore .container .key-features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.oxford-nanopore .container .key-features .box_1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #0084a9;
+  padding-bottom: 7px;
+}
+.oxford-nanopore .container .key-features .box_2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+@media (max-width: 992px) {
+  .oxford-nanopore .container .key-features .box_2 {
+    flex-direction: column;
+  }
+}
+.oxford-nanopore .container .key-features .box_2 .image img {
+  max-width: 95%;
+}
+.oxford-nanopore .container .key-features .box_2 .content {
+}
+.oxford-nanopore .container .key-features .box_2 .content .box {
+  padding: 25px;
+}
+.oxford-nanopore .container .key-features .box_2 .content .box h4 {
+  color: #02adc6;
+}
+.oxford-nanopore .container .key-features .box_2 .content .box p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.oxford-nanopore .case-studies {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 80vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.oxford-nanopore .case-studies .container {
+}
+.oxford-nanopore .case-studies .container .box_1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+  color: #fff;
+}
+@media (max-width: 992px) {
+  .oxford-nanopore .case-studies .container .box_1 {
+    flex-direction: column;
+  }
+}
+.oxford-nanopore .case-studies .container .box_2 {
+}
+.oxford-nanopore .case-studies .container .box_2 p {
+  margin-top: 20px;
+  margin-bottom: -10px;
+  color: #fff;
+  max-width: 45em;
+  font-size: 18px;
+  font-weight: 400;
+}
+.oxford-nanopore .case-studies .container .box_2 .oxford-nanopore-main-btn {
+  color: #02adc6;
+  background-color: #fff;
+  border-color: transparent;
+}
+
+.oxford-nanopore
+  .case-studies
+  .container
+  .box_2
+  .oxford-nanopore-main-btn:hover {
+  background-color: #02adc6;
+  color: #fff;
+}
+
+.oxford-nanopore .specifications {
+  background-color: #000;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.oxford-nanopore .specifications .container {
+}
+.oxford-nanopore .specifications .specifications-heading {
+  border-bottom: 2px solid #fff;
+}
+.oxford-nanopore .specifications .specifications-heading h2 {
+  color: #fff;
+  padding-bottom: 10px;
+}
+.oxford-nanopore .specifications .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 50px;
+}
+@media (max-width: 992px) {
+  .oxford-nanopore .specifications .wrapper {
+    flex-direction: column;
+  }
+  .oxford-nanopore .specifications .wrapper:last-child {
+    flex-direction: column-reverse;
+  }
+}
+.oxford-nanopore .specifications .wrapper .image {
+}
+
+.oxford-nanopore .specifications .wrapper .image img {
+  max-width: 100%;
+}
+.oxford-nanopore .specifications .wrapper .content {
+}
+.oxford-nanopore .specifications .wrapper .content .box {
+  padding: 20px;
+}
+.oxford-nanopore .specifications .wrapper .content .box h5 {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  margin-bottom: 12px;
+}
+.oxford-nanopore .specifications .wrapper .content .box p {
+  max-width: 45em;
+}
+.oxford-nanopore .specifications .wrapper .content .box ul {
+  list-style-type: disc;
+  margin-top: 25px;
+}
+.oxford-nanopore .specifications .wrapper .content .box ul li {
+  list-style-type: disc;
+  margin-left: 16px;
+}
+.oxford-nanopore .product-documentation {
+  background-color: #e5eef1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.oxford-nanopore .product-documentation .container {
+}
+.oxford-nanopore
+  .product-documentation
+  .container
+  .product-documentaion-heading {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #02adc6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.oxford-nanopore
+  .product-documentation
+  .container
+  .product-documentaion-heading
+  h2 {
+  font-weight: lighter;
+  font-size: 38px;
+}
+.oxford-nanopore .product-documentation .product-documentaion-heading button {
+  font-weight: bold;
+  padding: 8px 16px;
+  color: #02adc6;
+  border: none;
+  box-shadow: 0 2px 2px rgba(74, 74, 74, 0.3);
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.oxford-nanopore
+  .product-documentation
+  .product-documentaion-heading
+  button:hover {
+  box-shadow: 0 2px 4px rgba(74, 74, 74, 0.6);
+  color: #0c5a71;
+}
+.oxford-nanopore .product-documentation .container .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 25px;
+  padding-top: 80px;
+}
+
+.oxford-nanopore .product-documentation .container .content .box h4 {
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.oxford-nanopore .product-documentation .container .content .box p {
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+.oxford-nanopore .product-documentation .container .content .box span {
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.oxford-nanopore .product-documentation .container .content .box a {
+  color: #02adc6;
+  text-decoration: underline;
+}
+
+.oxford-nanopore .overview-2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.oxford-nanopore .overview-2 .overview-2-heading {
+  margin-bottom: 35px;
+}
+.oxford-nanopore .overview-2 .overview-2-heading h2 {
+  border-bottom: 1px solid #0084a9;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+.oxford-nanopore .overview-2 .main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 25px;
+}
+@media (max-width: 992px) {
+  .oxford-nanopore .overview-2 .main-section {
+    flex-direction: column-reverse;
+  }
+}
+
+.oxford-nanopore .overview-2 .main-section .content p {
+  max-width: 35em;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.oxford-nanopore .overview-2 .main-section .content .special-one {
+  background-color: #02adc6;
+  color: #fff;
+  padding: 15px;
+}
+
+.oxford-nanopore .overview-2 .main-section .content > div button {
+  padding: 8px 16px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 1rem;
+  box-shadow: 0 2px 2px rgba(74, 74, 74, 0.3);
+  transition: 0.3s;
+}
+.oxford-nanopore .overview-2 .main-section .content > div button:first-child {
+  background-color: #0084a9;
+}
+.oxford-nanopore
+  .overview-2
+  .main-section
+  .content
+  > div
+  button:first-child:hover {
+  box-shadow: 0 2px 2px rgba(74, 74, 74, 0.3);
+  background-color: #245a6f;
+}
+.oxford-nanopore .overview-2 .main-section .content > div button:last-child {
+  background-color: #17bb75;
+}
+.oxford-nanopore
+  .overview-2
+  .main-section
+  .content
+  > div
+  button:last-child:hover {
+  box-shadow: 0 2px 2px rgba(74, 74, 74, 0.3);
+  background-color: #0b814f;
+}
+.oxford-nanopore .overview-2 .main-section .image img {
+  max-width: 100%;
+}
+
+.oxford-nanopore .charts {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.oxford-nanopore .charts .container {
+}
+.oxford-nanopore .charts .container .charts-heading {
+  margin-bottom: 35px;
+}
+.oxford-nanopore .charts .container .charts-heading h2 {
+  border-bottom: 1px solid #0084a9;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+.oxford-nanopore .charts .container p {
+  margin-bottom: 35px;
+}
+
+.oxford-nanopore .main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 35px;
+}
+@media (max-width: 767px) {
+  .oxford-nanopore .main {
+    flex-direction: column;
+  }
+}
+.oxford-nanopore .main .image img {
+  max-width: 100%;
+}
+.oxford-nanopore .main .info h4 {
+  margin-bottom: 25px;
+}
+.oxford-nanopore .main .info p {
+  font-weight: 500;
+  font-size: 18px;
+}
+.oxford-nanopore table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.oxford-nanopore table thead {
+  margin: 25px;
+}
+.oxford-nanopore table thead tr {
+}
+.oxford-nanopore table thead tr th {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: #f2f2f2;
+  font-size: 18px;
+  text-align: center;
+}
+.oxford-nanopore table thead tr th a {
+}
+.oxford-nanopore table tbody tr {
+}
+.oxford-nanopore table tbody tr td {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  padding: 25px 10px;
+  font-size: 18px;
+}
+.oxford-nanopore table tbody tr td:first-child {
+  padding-right: 120px;
+}
+.oxford-nanopore table tbody tr td img {
+  max-width: 70px;
+}
+.oxford-nanopore table tbody tr td:first-child {
+  text-align: left;
+}
+.oxford-nanopore table tbody tr td button {
+  background-color: #02adc6;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px 16px;
+  transition: 0.3s;
+}
+.oxford-nanopore table tbody tr td button:hover {
+  background-color: #0084a9;
+}
+
+.DNA-Software {
+}
+.DNA-Software .landing {
+  background-image: url("https://www.dnasoftware.com/wp-content/uploads/scientist.jpg?id=2648");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 60vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DNA-Software .landing::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00528a;
+  opacity: 0.3;
+  z-index: 1;
+}
+.DNA-Software .landing .container {
+}
+.DNA-Software .landing .container .wrapper {
+  position: relative;
+  z-index: 2;
+}
+.DNA-Software .landing .container .wrapper h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 72px;
+}
+.DNA-Software .landing .container .wrapper h4 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 32px;
+  width: 30em;
+}
+.DNA-Software .landing .container .wrapper p {
+  color: #fff;
+  font-weight: normal;
+  width: 42em;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+@media (max-width: 992px) {
+  .DNA-Software .landing .container .wrapper h2 {
+    width: 100%;
+    font-size: 50px;
+  }
+  .DNA-Software .landing .container .wrapper h4 {
+    width: 100%;
+    font-size: 28px;
+  }
+  .DNA-Software .landing .container .wrapper p {
+    width: 100%;
+  }
 }
 /* Products */
