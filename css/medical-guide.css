@@ -4564,7 +4564,6 @@ input.input.error {
 .DNA-Software {
 }
 .DNA-Software .landing {
-  background-image: url("https://www.dnasoftware.com/wp-content/uploads/scientist.jpg?id=2648");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4611,6 +4610,18 @@ input.input.error {
   font-size: 20px;
   letter-spacing: 1px;
 }
+.DNA-Software .landing .container .wrapper button {
+  background-color: #a2ff9e;
+  color: #002b41;
+  border-radius: 15px;
+  padding: 8px 23px;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s;
+}
+.DNA-Software .landing .container .wrapper button:hover {
+  background-color: #5ff159;
+}
 @media (max-width: 992px) {
   .DNA-Software .landing .container .wrapper h2 {
     width: 100%;
@@ -4623,5 +4634,161 @@ input.input.error {
   .DNA-Software .landing .container .wrapper p {
     width: 100%;
   }
+}
+.DNA-Software .section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.DNA-Software .section .container {
+}
+.DNA-Software .section .container .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+@media (max-width: 992px) {
+  .DNA-Software .section .container .wrapper {
+    flex-direction: column;
+  }
+}
+.DNA-Software .section .container .wrapper .info {
+}
+.DNA-Software .section .container .wrapper .info h4 {
+  font-weight: 900;
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+.DNA-Software .section .container .wrapper .info h4 strong {
+  background-color: #02adc655;
+  padding: 2px;
+}
+.DNA-Software .section .container .wrapper .info p {
+  font-weight: normal;
+  margin-bottom: 35px;
+}
+@media (min-width: 992px) {
+  .DNA-Software .section .container .wrapper .info p {
+    width: 30em;
+  }
+}
+.DNA-Software .section .container .wrapper .info button {
+  background-color: #a2ff9e;
+  color: #002b41;
+  border-radius: 15px;
+  padding: 8px 23px;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s;
+}
+.DNA-Software .section .container .wrapper .info button:hover {
+  background-color: #5ff159;
+}
+.DNA-Software .section .container .wrapper .image {
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(74, 74, 74, 0.3);
+  overflow: hidden;
+}
+.DNA-Software .reversed-section {
+}
+.DNA-Software .reversed-section .container {
+}
+.DNA-Software .reversed-section .container .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 35px;
+}
+@media (max-width: 992px) {
+  .DNA-Software .reversed-section .container .wrapper {
+    flex-direction: column-reverse;
+  }
+}
+.DNA-Software .reversed-section .container .wrapper .image {
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(74, 74, 74, 0.3);
+  overflow: hidden;
+}
+.DNA-Software .reversed-section .container .wrapper .image img {
+}
+.DNA-Software .reversed-section .container .wrapper .info {
+}
+.DNA-Software .reversed-section .container .wrapper .info h4 {
+  font-weight: 900;
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+.DNA-Software .reversed-section .container .wrapper .info ul {
+  padding-left: 20px;
+}
+.DNA-Software .reversed-section .container .wrapper .info ul li {
+  list-style-type: disc;
+  padding: 10px 0;
+  font-weight: normal;
+  font-size: 18px;
+}
+.DNA-Software .reversed-section .container .wrapper .info ol {
+  padding-left: 20px;
+}
+.DNA-Software .reversed-section .container .wrapper .info ol li {
+  list-style-type: disc;
+  padding: 10px 0;
+  font-weight: normal;
+  font-size: 18px;
+}
+.DNA-Software .section .container .wrapper .info ul {
+  padding-left: 20px;
+}
+.DNA-Software .section .container .wrapper .info ul li {
+  list-style-type: disc;
+  padding: 10px 0;
+  font-weight: normal;
+  font-size: 18px;
+}
+.DNA-Software .section .container .wrapper .info ol {
+  padding-left: 20px;
+}
+.DNA-Software .section .container .wrapper .info ol li {
+  list-style-type: disc;
+  padding: 10px 0;
+  font-weight: normal;
+  font-size: 18px;
+}
+.DNA-Software .section-table {
+  overflow: auto;
+}
+.DNA-Software .section-table h2 {
+}
+.DNA-Software .section-table table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.DNA-Software .section-table table thead {
+  margin: 25px;
+}
+.DNA-Software .section-table table thead tr {
+}
+.DNA-Software .section-table table thead tr th {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: #f2f2f2;
+  font-size: 18px;
+  text-align: center;
+}
+.DNA-Software .section-table table tbody {
+}
+.DNA-Software .section-table table tbody tr {
+}
+.DNA-Software .section-table table tbody tr td {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  padding: 25px 10px;
+  font-size: 18px;
+}
+.DNA-Software .section-table table tbody tr td:first-child {
+  padding-right: 120px;
+  text-align: left;
 }
 /* Products */
