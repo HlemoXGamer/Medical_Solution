@@ -4791,4 +4791,159 @@ input.input.error {
   padding-right: 120px;
   text-align: left;
 }
+.agilent {
+}
+.agilent .landing {
+  padding: 50px 0;
+}
+.agilent .landing .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 35px;
+}
+@media (max-width: 992px) {
+  .agilent .landing .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .agilent .landing .text {
+    text-align: center;
+  }
+  .agilent .landing .text p {
+    width: 100% !important;
+  }
+}
+.agilent .landing .text {
+  flex: 2;
+}
+.agilent .landing .text h4 {
+  color: #5a6772;
+  font-size: 24px;
+  font-weight: 200;
+}
+.agilent .landing .text h3 {
+  color: #303030;
+  margin-top: 10px;
+  font-size: 38px;
+  font-weight: 600;
+}
+.agilent .landing .text p {
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: normal;
+  width: 84%;
+}
+.agilent .landing .image {
+  flex: 1;
+  border: 1px solid #eee;
+}
+.agilent .landing .image img {
+  max-width: 100%;
+}
+.agilent .details {
+  padding-bottom: 50px;
+}
+@media (min-width: 992px) {
+  .agilent .details {
+    padding-left: 50px;
+  }
+}
+.agilent .details .features {
+}
+.agilent .details .features h2 {
+}
+.agilent .details .features ul {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.agilent .details .features ul li {
+  padding: 5px;
+  list-style-type: disc;
+  font-size: 18px;
+}
+.agilent .details .features ul li a {
+}
+.agilent .specifications {
+  padding: 50px 0;
+}
+.agilent .specifications h2 {
+  margin-bottom: 30px;
+}
+.agilent .specifications > table > tbody > {
+  width: 100%;
+}
+.agilent .specifications > table > tbody > tr > {
+}
+.agilent .specifications > table > tbody > tr > th {
+  padding: 10px 20px;
+  border: 1px solid #d0d0ce;
+  border-right: none;
+  color: #202020;
+}
+.agilent .specifications > table > tbody > tr > td {
+  padding: 10px 20px;
+  border: 1px solid #d0d0ce;
+  border-left: none;
+  padding-left: 20px;
+  color: #202020;
+}
+.agilent .specifications > table > tbody > tr > td > table {
+  width: 100%;
+}
+.agilent .specifications > table > tbody > tr > td > table > tbody {
+}
+.agilent .specifications > table > tbody > tr > td > table > tbody > tr {
+}
+.agilent .specifications > table > tbody > tr > td > table > tbody > tr > td {
+}
+.agilent .featured-references {
+}
+.agilent .featured-references h2 {
+}
+.agilent .featured-references ol {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.agilent .featured-references ol li {
+  padding: 5px;
+  list-style-type: decimal;
+  font-size: 18px;
+}
+.agilent .how-it-works {
+  padding: 50px 0;
+}
+.agilent .how-it-works .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 35px;
+  padding: 35px 10px;
+}
+.agilent .how-it-works .box:nth-child(odd) {
+  background-color: #efefef;
+}
+@media (max-width: 992px) {
+  .agilent .how-it-works .box {
+    flex-direction: column;
+  }
+}
+.agilent .how-it-works .box .info {
+  flex: 4;
+}
+.agilent .how-it-works .box .info h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.agilent .how-it-works .box .info p {
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.agilent .how-it-works .box .image {
+  flex: 3;
+}
+.agilent .how-it-works .box .image img {
+}
 /* Products */
