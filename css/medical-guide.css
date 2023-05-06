@@ -4635,11 +4635,29 @@ input.input.error {
     width: 100%;
   }
 }
+
 .DNA-Software .section {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 .DNA-Software .section .container {
+}
+.DNA-Software .section .container .cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 35px;
+}
+.DNA-Software .section .container .cards-wrapper .box {
+}
+.DNA-Software .section .container .cards-wrapper .box h2 {
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+.DNA-Software .section .container .cards-wrapper .box h2:first-child {
+}
+.DNA-Software .section .container .cards-wrapper .box h2:last-child {
+  color: #6b6a79;
+  font-weight: 600;
 }
 .DNA-Software .section .container .wrapper {
   display: flex;
