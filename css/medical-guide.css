@@ -5081,8 +5081,22 @@ input.input.error {
   text-align: center;
   margin-top: 30px;
 }
-
+.about-us-corporate-social {
+}
+.about-us-corporate-social .landing {
+}
+.about-us-corporate-social .landing h1 {
+  font-size: 38px;
+  text-align: center;
+}
+.about-us-corporate-social .landing img {
+}
+.about-us-corporate-social .landing p {
+  font-size: 21px;
+  line-height: 1.7;
+  color: #000;
+  font-weight: normal;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 /* About Us */
-/* 
-
-*/
